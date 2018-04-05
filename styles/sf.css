@@ -1,0 +1,649 @@
+/* CSS Stylesheet for the Tissue Finder 2.0 *
+ * Coder: Stefano Pirro'
+ * Institution: Barts Cancer Institute
+ * Details: all the styling instructions of the SF2.0 portal, are included here.
+ *          Elements are grouped according to their type (buttons, h1, h2, images etc.) */
+
+
+/* Background Image
+ * We make it full screen */
+html {
+  background-color: white;
+}
+
+.clear {
+  clear: both;
+}
+
+/* DIVs */
+div#logo {
+  position: static;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 18px;
+}
+
+div#loading {
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   position: fixed;
+   display: none;
+   opacity: 1;
+   background-color: rgba(255,255,255,0.8);
+   z-index: 99999;
+   text-align: center;
+}
+
+div#loading div {
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 25%;
+}
+
+div#inner-head-top {
+  background: rgba(252, 146, 164, 0.8); /*pink*/
+  padding: 30px;
+  margin: 0;
+  width: 10%;
+  height: 50px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+div#upper {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(252, 146, 164, 0.2);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid rgba(252, 146, 164, 0.7);
+}
+
+div#central {
+  width: 60%;
+  margin-top: 40px;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 10px #777;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+div#footer {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(252, 146, 164, 0.2);
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgba(252, 146, 164, 0.7);
+  overflow: hidden;
+}
+
+div#pub_details {
+  width: 80%;
+  margin-top: 40px;
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.counter_container {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: solid 1px rgba(252, 146, 164, 0.7);
+  border-radius: 5px;
+}
+
+div#bioinformatics_counter_container {
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width:40%;
+}
+
+div.counter_container .counter {
+  font-size: 15pt;
+  display: inline-block;
+}
+
+div.perform_request {
+  width:100%;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+div#request {
+  width:80%;
+  margin-top: 50px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.stat_graph {
+  width: 20%;
+  height: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+fieldset.statistics_container {
+  border-style: solid;
+  border-color: rgba(252, 146, 164, 0.5);
+  border-radius: 5px;
+  margin: 20px 5px 20px 5px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: auto;
+}
+
+fieldset.statistics_container legend {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+/* Text */
+h2 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 17px;
+  text-align: justify;
+  font-weight: bold;
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h3 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  text-align: justify;
+  font-weight: bold;
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: red;
+}
+
+p {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+p.info {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  text-align: justify;
+  display: inline;
+  line-height: 2;
+}
+
+p.output {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  text-align: left;
+  padding-left: 5px;
+}
+
+p.filter {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  text-align: left;
+  padding-left: 5px;
+}
+
+h1#head-top {
+  font-family: "HelveticaNeueW02-75Bold",Arial,sans-serif;
+  color: white;
+  font-size: 45px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Images */
+img#statistics {
+  width: 50px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Tables */
+table.filter {
+  table-layout: fixed;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  float:left;
+}
+
+table#left.filter {
+  width: 20%;
+}
+
+table#center.filter {
+  width: 55%;
+  height: auto;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+table#right.filter {
+  width: 40%;
+}
+
+table.filter tr td {
+  /*vertical-align: top;*/
+  text-align: center;
+}
+
+table.filter td.section {
+  vertical-align: middle;
+  color: rgba(74, 73, 73, 1);
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+
+table#bcntb_dr {
+  /*table-layout: fixed;*/
+  width: 100%;
+}
+
+table#bcntb_dr tr td {
+  vertical-align: top;
+  text-align: right;
+  padding-bottom: 10px;
+}
+
+table.info {
+  /*table-layout: fixed;*/
+  width: 100%;
+  text-align: left;
+}
+
+table.info tr td {
+  vertical-align: top;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+table.patient_filter {
+  table-layout: fixed;
+  width: 100%;
+}
+
+table.patient_filter tr td {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+table.sample_filter {
+  table-layout: fixed;
+  width: 100%;
+}
+
+table.sample_filter tr td {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+table.therapy_filter {
+  table-layout: fixed;
+  width: 100%;
+}
+
+table.therapy_filter tr td {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+table.in_silico_filter {
+  table-layout: fixed;
+  width: 100%;
+}
+
+table.in_silico_filter tr td {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+table#papers td, th, .dataTables_length, .dataTables_filter, .dataTables_info, .dataTables_paginate, .paging_simple_numbers {
+  font-family: "Helvetica Neue";
+  color: #4a4949;
+  font-size: 13px;
+  padding: 5px 5px 5px 5px;
+}
+
+fieldset.statistics_container table {
+  table-layout: auto;
+  width: 100%;
+}
+
+/* Filters */
+fieldset.filter {
+  border-style: solid;
+  border-color: rgba(252, 146, 164, 0.5);
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+fieldset.filter legend {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.switch-wrapper {
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  margin-left: 20px;
+}
+
+.switch-button-label {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+/* Logo */
+xtext {
+  color: white;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 40px;
+  line-height: 1;
+  vertical-align: middle;
+  padding-left: 30px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+ytext {
+  color: yellow;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* MENU */
+table#logo_menu_container {
+  width: 100%;
+}
+
+table#logo_menu_container tr td {
+  width: 50%;
+}
+
+table#logo_menu_container tr td ul {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding-right: 40px;
+}
+
+table#logo_menu_container tr td ul li {
+  display: inline;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  margin: 10px;
+  color: white;
+  cursor: pointer;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+table#logo_menu_container tr td ul li:hover {
+  color: yellow;
+}
+
+/* Buttons */
+div.perform_request button {
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255,255,0,0.6);
+  border: none;
+  border-bottom: 2px solid rgba(252,146,164,1);
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+}
+
+input[type="submit"] {
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255,255,0,0.6);
+  border: none;
+  border-bottom: 2px solid rgba(252,146,164,1);
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+}
+
+button.analysis {
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255,255,0,0.6);
+  border: none;
+  border-bottom: 2px solid rgba(252,146,164,1);
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+}
+
+/* canvas js chart */
+canvas.canvasjs-chart-canvas {
+  position: relative;
+}
+
+.canvasjs-chart-credit {
+   display: none;
+}
+
+/* input form */
+input[type="text"] {
+  display: inline;
+  margin-left: -50px;
+  width: 100%;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+input[type="email"] {
+  display: inline;
+  margin-left: -50px;
+  width: 100%;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
+
+input[type="email"]:focus {
+  outline: none;
+}
+
+input[type="text"]#ncases {
+  display: inline;
+  width: 10%;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+input#min_age_label {
+  width: 50px;
+  border: none;
+  font-family: "Helvetica Neue";
+  font-size: 12px;
+  color: "grey";
+  transform: rotate(-45deg);
+  margin-top: 10px;
+  float: left;
+  text-align:center;
+  transform-origin: 40px -20px;
+  background: transparent;
+}
+
+input#max_age_label {
+  width: 50px;
+  border: none;
+  font-family: "Helvetica Neue";
+  font-size: 12px;
+  color: "grey";
+  transform: rotate(-45deg);
+  margin-top: 10px;
+  float: right;
+  background: transparent;
+  transform-origin: 30px -30px;
+}
+
+textarea {
+  resize: none;
+}
+
+span.ptrack {
+  margin-right: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  border-color: rgba(252, 146, 164, 1);
+  background-color: rgba(252, 146, 164, 0.2);
+  line-height: 2;
+  padding: 3px;
+}
+
+span.ptrack a {
+  text-align: justify;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 12px;
+}
+
+a#reset_filter {
+  appearance: button;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(255,255,0,0.6);
+  border-bottom: 2px solid rgba(252,146,164,1);
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+}
+
+/* BREADCRUMB */
+div#breadcrumb {
+  position: static;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+}
+
+.breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  list-style: none;
+  background-color: whitesmoke;
+  border-radius: 4px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+.breadcrumb > li {
+  display: inline-block;
+}
+
+.breadcrumb > li + li:before {
+  content: /\00a0;
+  padding: 0 5px;
+  color: #cccccc;
+}
+
+.breadcrumb > li a {
+  color: black;
+  text-decoration: none;
+}
+
+.breadcrumb > .active {
+  color: #777777;
+}
+
+.breadcrumb > li + li:before {
+  color: #666666;
+}
+
+.breadcrumb-wrapper {
+  position: relative;
+  z-index: 2;
+}
+
+/* accordion style */
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+  background: rgba(252,146,164,0.5);
+  border: 1px solid rgba(252,146,164,0.5);
+  color: black;
+  font-size: 12px;
+}
+
+.ui-accordion .ui-accordion-header {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  margin: 8px 0 0 0;
+  padding: .5em .5em .5em .7em;
+  font-size: 15px;
+}
+
+.ui-helper-reset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  line-height: 1.3;
+  text-decoration: none;
+  font-size: 15px;
+  list-style: none;
+  vertical-align: top;
+  margin-top: -5;
+}
+
+.ui-accordion .ui-accordion-content {
+  padding: 10px 5px 5px 5px;
+  border-top: 0;
+  overflow: auto;
+}

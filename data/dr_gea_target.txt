@@ -1,0 +1,179 @@
+FILE_NAME	STAGE	SURVIVALSTATUS	SURVIVALTIME	GENDER	ETHNICGROUP	AGE	MENOPAUSALSTATUS	ER	PR	HER2	LYMPHNODE	METASTASIS	MOLECULAR_SUBTYPE	FAMILYHISTORY	BRCA	TECHNOLOGY	TP53MUT
+rnaseq.P1	2a	Alive	0.0137	Female	Asian or Asian British - Bangladeshi	53	Pre-Menopausal	Negative	Negative	Negative	Positive	Yes	Basal	Yes	Positive	rnaseq	Null
+rnaseq.P10	2a	Alive	1.0294	Female	Asian or Asian British - Bangladeshi	58	Pre-Menopausal	Negative	Negative	Negative	Positive	No	LumB	No	Negative	rnaseq	Null
+rnaseq.P100	3a	Dead	9.358	Female	White-Other	81	Post-Menopausal	Positive	Positive	Negative	Positive	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P101	3a	Alive	9.3908	Female	White-British	45	Pre-Menopausal	Positive	Positive	Negative	Positive	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P102	2a	Alive	9.462	Female	Black or Black British	72	Post-Menopausal	Positive	Positive	Negative	Negative	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P103	3a	Dead	9.4757	Female	White-Other	40	Pre-Menopausal	Positive	Negative	Negative	Positive	No	LumA	No	Positive	rnaseq	Null
+rnaseq.P104	2b	Dead	9.4784	Female	White-Other	35	Pre-Menopausal	Positive	Positive	Negative	Positive	Yes	LumA	No	unknown	rnaseq	Null
+rnaseq.P105	3a	Alive	9.8754	Female	White-British	43	Pre-Menopausal	Positive	Positive	Negative	Positive	Yes	LumA	No	unknown	rnaseq	Null
+rnaseq.P106	3a	Alive	10.0205	Female	White-Other	38	Pre-Menopausal	Positive	Positive	Negative	Positive	No	LumA	No	Positive	rnaseq	Null
+rnaseq.P107	2b	Dead	10.0452	Female	White-British	60	Pre-Menopausal	Positive	Positive	Negative	Positive	Yes	LumA	No	unknown	rnaseq	Null
+rnaseq.P108	1a	Alive	10.1547	Female	Black or Black British	36	Pre-Menopausal	Positive	Positive	Negative	Negative	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P109	2b	Alive	10.423	Female	White-Other	51	Pre-Menopausal	Positive	Negative	Negative	Positive	Yes	LumA	No	unknown	rnaseq	Null
+rnaseq.P11	2a	Alive	1.0486	Female	Asian or Asian British - Bangladeshi	52	Pre-Menopausal	Negative	Negative	Negative	Negative	No	LumB	No	unknown	rnaseq	Null
+rnaseq.P110	2b	Dead	10.6037	Female	White-Other	75	Post-Menopausal	Positive	Positive	Negative	Negative	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P111	4	Dead	10.7899	Female	White-British	64	Post-Menopausal	Positive	Positive	Negative	Positive	No	LumA	No	Negative	rnaseq	Null
+rnaseq.P112	1	Dead	10.8008	Female	White-British	54	Pre-Menopausal	Positive	Positive	Negative	Negative	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P113	2b	Alive	11.1704	Female	White-British	59	Peri-Menopausal	Positive	Positive	Negative	Positive	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P114	2b	Dead	11.6824	Female	Asian or Asian British - Indian	68	Post-Menopausal	Positive	Positive	Negative	Negative	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P115	2a	Alive	11.7043	Female	White-British	43	Pre-Menopausal	Positive	Negative	Negative	Negative	No	Her2	No	unknown	rnaseq	Null
+rnaseq.P116	1a	Alive	11.9206	Female	White-British	66	Post-Menopausal	Positive	Positive	Negative	Negative	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P117	2a	Alive	13.399	Female	White-British	65	Post-Menopausal	Positive	Positive	Negative	Negative	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P118	3b	Alive	13.4949	Female	White-Other	71	Post-Menopausal	Positive	Positive	Negative	Positive	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P119	3a	Alive	14.1164	Female	White-British	42	Pre-Menopausal	Positive	Positive	Negative	Positive	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P12	2a	Alive	1.0541	Female	Asian or Asian British - Indian	55	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Basal	No	unknown	rnaseq	Null
+rnaseq.P120	2b	Alive	15.7125	Female	White-Other	61	Post-Menopausal	Positive	Positive	Negative	Positive	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P121	2a	Dead	15.7399	Female	White-Other	51	Pre-Menopausal	Positive	Positive	Positive	Negative	No	Her2	No	unknown	rnaseq	Null
+rnaseq.P122	2	Alive	17.2266	Female	White-Other	50	Pre-Menopausal	Positive	Positive	Negative	Positive	Yes	LumA	No	unknown	rnaseq	Null
+rnaseq.P123	2b	Alive	19.4552	Female	White-Other	42	Pre-Menopausal	Positive	Positive	Negative	Negative	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P124	3b	Alive	19.5099	Female	White-British	44	Pre-Menopausal	Positive	Positive	Negative	Positive	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P125	2a	Alive	22.9733	Female	White-British	51	Pre-Menopausal	Positive	Positive	Negative	Negative	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P126	2b	Alive	23.4251	Female	White-Other	49	Pre-Menopausal	Positive	Positive	Negative	Positive	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P13	2a	Alive	1.0787	Female	Asian or Asian British - Bangladeshi	90	Post-Menopausal	Negative	Negative	Negative	Negative	No	LumB	No	unknown	rnaseq	Null
+rnaseq.P14	2a	Alive	1.0869	Female	White-British	72	Post-Menopausal	Negative	Negative	Negative	Positive	Yes	Basal	No	Positive	rnaseq	Null
+rnaseq.P15	1a	Alive	1.1225	Female	White-British	59	Pre-Menopausal	Negative	Negative	Negative	Negative	No	LumA	No	Negative	rnaseq	Null
+rnaseq.P16	2b	Alive	1.1636	Female	White-British	74	Post-Menopausal	Negative	Negative	Negative	Negative	Yes	Basal	No	Negative	rnaseq	Null
+rnaseq.P17	2a	Alive	1.18	Female	White-British	51	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Basal	No	unknown	rnaseq	Null
+rnaseq.P18	2b	Alive	1.2019	Female	Asian or Asian British - Indian	48	Pre-Menopausal	Negative	Negative	Negative	Negative	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P19	2b	Alive	1.2074	Female	White-Other	55	Pre-Menopausal	Negative	Negative	Negative	Positive	No	Basal	Yes	Negative	rnaseq	Null
+rnaseq.P2	2a	Alive	0.0274	Female	White-British	55	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Basal	No	unknown	rnaseq	Null
+rnaseq.P20	3a	Alive	1.6646	Female	Black or Black British	70	Post-Menopausal	Negative	Negative	Negative	Positive	Yes	Basal	No	Negative	rnaseq	Null
+rnaseq.P21	2a	Alive	1.6728	Female	White-British	72	Post-Menopausal	Negative	Negative	Negative	Negative	No	LumA	No	Negative	rnaseq	Null
+rnaseq.P22	3a	Dead	1.7495	Female	Black or Black British	40	Pre-Menopausal	Negative	Negative	Negative	Positive	Yes	Basal	No	unknown	rnaseq	Null
+rnaseq.P23	2a	Alive	1.8097	Female	White-Other	65	Post-Menopausal	Negative	Negative	Negative	Negative	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P24	2a	Alive	1.9001	Female	Black or Black British	58	Pre-Menopausal	Negative	Negative	Negative	Negative	Yes	Basal	No	Negative	rnaseq	Null
+rnaseq.P25	1	Alive	1.9192	Female	White-British	82	Post-Menopausal	Negative	Negative	Negative	Negative	No	LumA	No	Negative	rnaseq	Null
+rnaseq.P26	2a	Alive	1.9767	Female	Black or Black British	50	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Basal	Yes	Positive	rnaseq	Null
+rnaseq.P27	1a	Alive	2.0205	Female	White-British	55	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Basal	No	unknown	rnaseq	Null
+rnaseq.P28	2a	Dead	2.0643	Female	Black or Black British	40	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Basal	No	Negative	rnaseq	Null
+rnaseq.P29	3c	Alive	3.3128	Female	White-Irish	68	Pre-Menopausal	Negative	Negative	Negative	Positive	No	Basal	No	Negative	rnaseq	Null
+rnaseq.P3	3a	Alive	0.0274	Female	White-British	62	Post-Menopausal	Negative	Negative	Negative	Positive	Yes	Her2	Yes	Negative	rnaseq	Null
+rnaseq.P30	2a	Alive	3.3922	Female	White-Other	47	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Basal	No	unknown	rnaseq	Null
+rnaseq.P31	2b	Alive	3.4661	Female	White-British	75	Post-Menopausal	Negative	Negative	Negative	Positive	No	Normal	No	Negative	rnaseq	Null
+rnaseq.P32	3a	Alive	3.5838	Female	Black or Black British	73	Post-Menopausal	Negative	Negative	Negative	Positive	Yes	Basal	No	unknown	rnaseq	Null
+rnaseq.P33	1	Alive	5.1225	Female	White-British	73	Post-Menopausal	Negative	Negative	Negative	Negative	No	LumA	No	Positive	rnaseq	Null
+rnaseq.P34	2a	Alive	5.2977	Female	White-British	48	Pre-Menopausal	Negative	Negative	Negative	Negative	No	LumA	No	Negative	rnaseq	Null
+rnaseq.P35	3a	Dead	5.4565	Female	Black or Black British	38	Pre-Menopausal	Negative	Negative	Negative	Positive	No	Basal	No	Negative	rnaseq	Null
+rnaseq.P36	1	Alive	6.2368	Female	White-British	35	Pre-Menopausal	Negative	Negative	Negative	Negative	No	LumA	No	Negative	rnaseq	Null
+rnaseq.P37	2b	Alive	6.3765	Female	White-Irish	63	Pre-Menopausal	Negative	Negative	Negative	Positive	No	Basal	No	unknown	rnaseq	Null
+rnaseq.P38	1	Alive	6.4914	Female	Black or Black British	71	Post-Menopausal	Negative	Negative	Negative	Negative	No	Basal	No	unknown	rnaseq	Null
+rnaseq.P39	2b	Alive	7.0034	Female	White-British	46	Pre-Menopausal	Negative	Negative	Negative	Positive	No	Basal	No	unknown	rnaseq	Null
+rnaseq.P4	2a	Alive	0.0274	Female	White-Other	52	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Basal	Yes	Positive	rnaseq	Null
+rnaseq.P40	2a	Alive	7.2663	Female	White-Other	47	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Her2	No	unknown	rnaseq	Null
+rnaseq.P41	3a	Alive	7.4497	Female	White-British	39	Pre-Menopausal	Negative	Negative	Negative	Positive	No	LumA	No	Negative	rnaseq	Null
+rnaseq.P42	2a	Alive	8.2601	Female	White-Other	62	Post-Menopausal	Negative	Negative	Negative	Positive	No	LumA	Yes	Positive	rnaseq	Null
+rnaseq.P43	2a	Alive	8.271	Female	White-British	49	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Basal	No	unknown	rnaseq	Null
+rnaseq.P44	2a	Dead	8.386	Female	White-British	38	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Basal	No	Negative	rnaseq	Null
+rnaseq.P45	2b	Alive	8.5448	Female	White-British	57	Pre-Menopausal	Negative	Negative	Negative	Positive	No	LumA	No	Negative	rnaseq	Null
+rnaseq.P46	1	Alive	8.8898	Female	White-British	59	Pre-Menopausal	Negative	Negative	Negative	Negative	Yes	Basal	Yes	Negative	rnaseq	Null
+rnaseq.P47	2a	Alive	8.8925	Female	White-Other	61	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Normal	No	Negative	rnaseq	Null
+rnaseq.P48	2a	Alive	8.9281	Female	White-British	54	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Basal	No	unknown	rnaseq	Null
+rnaseq.P49	2b	Alive	8.9966	Female	White-Other	29	Pre-Menopausal	Negative	Negative	Negative	Positive	No	Basal	No	unknown	rnaseq	Null
+rnaseq.P5	2a	Alive	0.0274	Female	White-British	54	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Basal	No	Negative	rnaseq	Null
+rnaseq.P50	2a	Alive	9.024	Female	White-British	47	Pre-Menopausal	Negative	Negative	Negative	Negative	No	LumB	No	Negative	rnaseq	Null
+rnaseq.P51	2a	Dead	9.5058	Female	Black or Black British	78	Post-Menopausal	Negative	Negative	Negative	Positive	No	Basal	No	Negative	rnaseq	Null
+rnaseq.P52	2a	Alive	9.5989	Female	White-Other	38	Pre-Menopausal	Negative	Negative	Negative	Negative	Yes	Basal	No	unknown	rnaseq	Null
+rnaseq.P53	3a	Alive	11.7317	Female	White-British	40	Pre-Menopausal	Negative	Negative	Negative	Positive	Yes	LumA	No	unknown	rnaseq	Null
+rnaseq.P54	1a	Alive	21.9247	Female	White-British	60	Pre-Menopausal	Negative	Negative	Negative	Negative	No	LumA	No	Negative	rnaseq	Null
+rnaseq.P55	1a	Alive	23.5592	Female	White-British	49	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Basal	No	unknown	rnaseq	Null
+rnaseq.P56	2a	Alive	0	Female	Asian or Asian British - Indian	43	Pre-Menopausal	Positive	Positive	Positive	Negative	No	LumB	Yes	Positive	rnaseq	Null
+rnaseq.P57	2a	Alive	0	Female	White-British	80	Post-Menopausal	Positive	Positive	Negative	Negative	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P58	2a	Alive	0	Female	White-Other	66	Post-Menopausal	Positive	Positive	Positive	Negative	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P59	2a	Alive	0	Female	White-British	75	Post-Menopausal	Positive	Negative	Negative	Negative	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P6	2a	Alive	0.0438	Female	White-Other	56	Post-Menopausal	Negative	Negative	Negative	Positive	Yes	Basal	No	unknown	rnaseq	Null
+rnaseq.P60	2a	Alive	0	Female	White-other	73	Post-Menopausal	Positive	Positive	Negative	Negative	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P61	3c	Alive	0	Female	White-Other	79	Post-Menopausal	Positive	Negative	Positive	Positive	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P62	2b	Alive	0	Female	Asian or Asian British - Bangladeshi	83	Post-Menopausal	Positive	Negative	Negative	Negative	No	LumB	No	unknown	rnaseq	Null
+rnaseq.P63	3b	Alive	0	Female	Asian or Asian British - Bangladeshi	66	Post-Menopausal	Positive	Negative	Negative	Negative	No	Her2	Yes	Positive	rnaseq	Null
+rnaseq.P64	2b	Alive	0	Female	White-Other	67	Post-Menopausal	Positive	Positive	Negative	Negative	No	Normal	No	unknown	rnaseq	Null
+rnaseq.P65	2a	Alive	0	Female	Black or Black British	74	Post-Menopausal	Positive	Positive	Negative	Negative	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P66	3a	Alive	0	Female	White-British	65	Post-Menopausal	Positive	Positive	Negative	Positive	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P67	2a	Alive	0.0137	Female	White-Other	56	Post-Menopausal	Positive	Negative	Negative	Negative	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P68	3a	Alive	0.0246	Female	White-Other	69	Post-Menopausal	Positive	Positive	Negative	Positive	Yes	LumA	Yes	Positive	rnaseq	Null
+rnaseq.P69	3a	Alive	0.0274	Female	White-British	55	Pre-Menopausal	Positive	Negative	Negative	Positive	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P7	2a	Alive	0.6324	Female	White-Other	62	Post-Menopausal	Negative	Negative	Negative	Negative	No	Basal	No	unknown	rnaseq	Null
+rnaseq.P70	2a	Alive	0.0274	Female	White-Other	74	Post-Menopausal	Positive	Positive	Negative	Negative	No	Normal	No	Positive	rnaseq	Null
+rnaseq.P71	2a	Alive	0.0274	Female	White-British	66	Post-Menopausal	Positive	Positive	Negative	Negative	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P72	2a	Alive	0.0274	Female	White-Other	68	Post-Menopausal	Positive	Positive	Negative	Negative	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P73	3a	Alive	0.0274	Female	White-British	70	Post-Menopausal	Positive	Negative	Negative	Positive	No	LumA	Yes	Negative	rnaseq	Null
+rnaseq.P74	1a	Alive	0.0274	Female	White-British	55	Pre-Menopausal	Positive	Positive	Negative	Negative	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P75	3a	Alive	0.0274	Female	White-Irish	54	Pre-Menopausal	Positive	Negative	Negative	Positive	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P76	2a	Alive	0.052	Female	White-British	62	Peri-Menopausal	Positive	Positive	Negative	Negative	No	LumB	No	Negative	rnaseq	Null
+rnaseq.P77	3b	Alive	0.0821	Female	White-British	70	Post-Menopausal	Positive	Positive	Negative	Positive	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P78	1	Alive	0.0821	Female	White-Irish	89	Post-Menopausal	Positive	Positive	Negative	Negative	No	LumB	No	unknown	rnaseq	Null
+rnaseq.P79	3a	Alive	0.0849	Female	Asian or Asian British - Bangladeshi	63	Post-Menopausal	Positive	Positive	Negative	Positive	Yes	LumA	Yes	Positive	rnaseq	Null
+rnaseq.P8	3c	Dead	0.6543	Female	White-British	58	Pre-Menopausal	Negative	Negative	Negative	Positive	Yes	Basal	No	Negative	rnaseq	Null
+rnaseq.P80	2b	Alive	0.0849	Female	Asian or Asian British - Bangladeshi	84	Post-Menopausal	Positive	Positive	Negative	Negative	No	LumA	Yes	Negative	rnaseq	Null
+rnaseq.P81	2b	Alive	0.0849	Female	White-British	58	Post-Menopausal	Positive	Positive	Negative	Positive	No	Normal	No	unknown	rnaseq	Null
+rnaseq.P82	3a	Alive	8.2382	Female	White-British	50	Pre-Menopausal	Positive	Positive	Negative	Positive	Yes	LumA	No	unknown	rnaseq	Null
+rnaseq.P83	2b	Alive	8.2437	Female	Asian or Asian British - Indian	41	Pre-Menopausal	Positive	Positive	Negative	Positive	Yes	LumA	No	unknown	rnaseq	Null
+rnaseq.P84	3a	Alive	8.2546	Female	Black or Black British	37	Pre-Menopausal	Positive	Positive	Negative	Positive	Yes	Basal	Yes	Positive	rnaseq	Null
+rnaseq.P85	3a	Alive	8.2957	Female	White-Other	51	Pre-Menopausal	Positive	Negative	Negative	Positive	No	Normal	No	unknown	rnaseq	Null
+rnaseq.P86	1	Alive	8.3094	Female	White-British	54	Pre-Menopausal	Positive	Positive	Negative	Negative	No	LumA	Yes	Positive	rnaseq	Null
+rnaseq.P87	1	Alive	8.4107	Female	White-Other	83	Post-Menopausal	Positive	Negative	Negative	Negative	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P88	1a	Alive	8.4709	Female	White-Other	73	Post-Menopausal	Positive	Positive	Negative	Negative	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P89	2a	Alive	8.5202	Female	White-Irish	47	Pre-Menopausal	Positive	Positive	Negative	Negative	No	LumA	Yes	Negative	rnaseq	Null
+rnaseq.P9	3a	Alive	1.0021	Female	White-British	79	Post-Menopausal	Negative	Negative	Negative	Positive	No	LumA	Yes	Positive	rnaseq	Null
+rnaseq.P90	NA	Dead	8.5585	Female	White-Other	73	Post-Menopausal	Positive	Positive	Negative	Positive	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P91	1	Alive	8.6489	Female	White-British	70	Post-Menopausal	Positive	Positive	Negative	Negative	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P92	2b	Alive	8.6845	Female	White-Other	49	Pre-Menopausal	Positive	Negative	Negative	Negative	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P93	3c	Alive	8.7666	Female	White-Other	46	Pre-Menopausal	Positive	Positive	Negative	Positive	Yes	LumA	No	unknown	rnaseq	Null
+rnaseq.P94	2b	Alive	8.7693	Female	Asian or Asian British - Indian	52	Pre-Menopausal	Positive	Positive	Negative	Positive	No	LumA	No	Positive	rnaseq	Null
+rnaseq.P95	2a	Alive	8.9692	Female	White-Other	44	Pre-Menopausal	Positive	Positive	Negative	Negative	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P96	2b	Alive	8.9884	Female	White-British	67	Post-Menopausal	Positive	Positive	Negative	Positive	No	LumA	No	unknown	rnaseq	Null
+rnaseq.P97	2a	Alive	9.0541	Female	Asian or Asian British - Other	39	Pre-Menopausal	Positive	Positive	Negative	Negative	No	LumA	No	Negative	rnaseq	Null
+rnaseq.P98	3a	Alive	9.0787	Female	Black or Black British	53	Pre-Menopausal	Positive	Negative	Negative	Positive	No	Basal	No	unknown	rnaseq	Null
+rnaseq.P99	1a	Dead	9.2375	Female	White-Other	74	Post-Menopausal	Positive	Positive	Negative	Negative	No	LumA	No	unknown	rnaseq	Null
+wgs.P1	2a	Alive	0.0137	Female	Asian or Asian British - Bangladeshi	53	Pre-Menopausal	Negative	Negative	Negative	Positive	Yes	Basal	Yes	Positive	wgs	No
+wgs.P2	2a	Alive	0.0274	Female	White-British	55	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Basal	No	unknown	wgs	No
+wgs.P3	3a	Alive	0.0274	Female	White-British	62	Post-Menopausal	Negative	Negative	Negative	Positive	Yes	Her2	Yes	Negative	wgs	No
+wgs.P4	2a	Alive	0.0274	Female	White-Other	52	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Basal	Yes	Positive	wgs	No
+wgs.P5	2a	Alive	0.0274	Female	White-British	54	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Basal	No	Negative	wgs	No
+wgs.P6	2a	Alive	0.0438	Female	White-Other	56	Post-Menopausal	Negative	Negative	Negative	Positive	Yes	Basal	No	unknown	wgs	Yes
+wgs.P7	2a	Alive	0.6324	Female	White-Other	62	Post-Menopausal	Negative	Negative	Negative	Negative	No	Basal	No	unknown	wgs	Yes
+wgs.P8	3c	Dead	0.6543	Female	White-British	58	Pre-Menopausal	Negative	Negative	Negative	Positive	Yes	Basal	No	Negative	wgs	Yes
+wgs.P9	3a	Alive	1.0021	Female	White-British	79	Post-Menopausal	Negative	Negative	Negative	Positive	No	LumA	Yes	Positive	wgs	Yes
+wgs.P10	2a	Alive	1.0294	Female	Asian or Asian British - Bangladeshi	58	Pre-Menopausal	Negative	Negative	Negative	Positive	No	LumB	No	Negative	wgs	Yes
+wgs.P11	2a	Alive	1.0486	Female	Asian or Asian British - Bangladeshi	52	Pre-Menopausal	Negative	Negative	Negative	Negative	No	LumB	No	unknown	wgs	Yes
+wgs.P12	2a	Alive	1.0541	Female	Asian or Asian British - Indian	55	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Basal	No	unknown	wgs	Yes
+wgs.P13	2a	Alive	1.0787	Female	Asian or Asian British - Bangladeshi	90	Post-Menopausal	Negative	Negative	Negative	Negative	No	LumB	No	unknown	wgs	Yes
+wgs.P14	2a	Alive	1.0869	Female	White-British	72	Post-Menopausal	Negative	Negative	Negative	Positive	Yes	Basal	No	Positive	wgs	Yes
+wgs.P15	1a	Alive	1.1225	Female	White-British	59	Pre-Menopausal	Negative	Negative	Negative	Negative	No	LumA	No	Negative	wgs	Yes
+wgs.P16	2b	Alive	1.1636	Female	White-British	74	Post-Menopausal	Negative	Negative	Negative	Negative	Yes	Basal	No	Negative	wgs	Yes
+wgs.P17	2a	Alive	1.18	Female	White-British	51	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Basal	No	unknown	wgs	Yes
+wgs.P18	2b	Alive	1.2019	Female	Asian or Asian British - Indian	48	Pre-Menopausal	Negative	Negative	Negative	Negative	No	LumA	No	unknown	wgs	Yes
+wgs.P19	2b	Alive	1.2074	Female	White-Other	55	Pre-Menopausal	Negative	Negative	Negative	Positive	No	Basal	Yes	Negative	wgs	Yes
+wgs.P20	3a	Alive	1.6646	Female	Black or Black British	70	Post-Menopausal	Negative	Negative	Negative	Positive	Yes	Basal	No	Negative	wgs	Yes
+wgs.P21	2a	Alive	1.6728	Female	White-British	72	Post-Menopausal	Negative	Negative	Negative	Negative	No	LumA	No	Negative	wgs	Yes
+wgs.P22	3a	Dead	1.7495	Female	Black or Black British	40	Pre-Menopausal	Negative	Negative	Negative	Positive	Yes	Basal	No	unknown	wgs	Yes
+wgs.P23	2a	Alive	1.8097	Female	White-Other	65	Post-Menopausal	Negative	Negative	Negative	Negative	No	LumA	No	unknown	wgs	Yes
+wgs.P24	2a	Alive	1.9001	Female	Black or Black British	58	Pre-Menopausal	Negative	Negative	Negative	Negative	Yes	Basal	No	Negative	wgs	Yes
+wgs.P25	1	Alive	1.9192	Female	White-British	82	Post-Menopausal	Negative	Negative	Negative	Negative	No	LumA	No	Negative	wgs	Yes
+wgs.P26	2a	Alive	1.9767	Female	Black or Black British	50	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Basal	Yes	Positive	wgs	Yes
+wgs.P27	1a	Alive	2.0205	Female	White-British	55	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Basal	No	unknown	wgs	Yes
+wgs.P28	2a	Dead	2.0643	Female	Black or Black British	40	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Basal	No	Negative	wgs	Yes
+wgs.P29	3c	Alive	3.3128	Female	White-Irish	68	Pre-Menopausal	Negative	Negative	Negative	Positive	No	Basal	No	Negative	wgs	Yes
+wgs.P30	2a	Alive	3.3922	Female	White-Other	47	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Basal	No	unknown	wgs	Yes
+wgs.P31	2b	Alive	3.4661	Female	White-British	75	Post-Menopausal	Negative	Negative	Negative	Positive	No	Normal	No	Negative	wgs	Yes
+wgs.P32	3a	Alive	3.5838	Female	Black or Black British	73	Post-Menopausal	Negative	Negative	Negative	Positive	Yes	Basal	No	unknown	wgs	Yes
+wgs.P33	1	Alive	5.1225	Female	White-British	73	Post-Menopausal	Negative	Negative	Negative	Negative	No	LumA	No	Positive	wgs	Yes
+wgs.P34	2a	Alive	5.2977	Female	White-British	48	Pre-Menopausal	Negative	Negative	Negative	Negative	No	LumA	No	Negative	wgs	Yes
+wgs.P35	3a	Dead	5.4565	Female	Black or Black British	38	Pre-Menopausal	Negative	Negative	Negative	Positive	No	Basal	No	Negative	wgs	Yes
+wgs.P36	1	Alive	6.2368	Female	White-British	35	Pre-Menopausal	Negative	Negative	Negative	Negative	No	LumA	No	Negative	wgs	Yes
+wgs.P37	2b	Alive	6.3765	Female	White-Irish	63	Pre-Menopausal	Negative	Negative	Negative	Positive	No	Basal	No	unknown	wgs	Yes
+wgs.P38	1	Alive	6.4914	Female	Black or Black British	71	Post-Menopausal	Negative	Negative	Negative	Negative	No	Basal	No	unknown	wgs	Yes
+wgs.P39	2b	Alive	7.0034	Female	White-British	46	Pre-Menopausal	Negative	Negative	Negative	Positive	No	Basal	No	unknown	wgs	Yes
+wgs.P40	2a	Alive	7.2663	Female	White-Other	47	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Her2	No	unknown	wgs	Yes
+wgs.P41	3a	Alive	7.4497	Female	White-British	39	Pre-Menopausal	Negative	Negative	Negative	Positive	No	LumA	No	Negative	wgs	Yes
+wgs.P42	2a	Alive	8.2601	Female	White-Other	62	Post-Menopausal	Negative	Negative	Negative	Positive	No	LumA	Yes	Positive	wgs	Yes
+wgs.P43	2a	Alive	8.271	Female	White-British	49	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Basal	No	unknown	wgs	Yes
+wgs.P44	2a	Dead	8.386	Female	White-British	38	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Basal	No	Negative	wgs	Yes
+wgs.P45	2b	Alive	8.5448	Female	White-British	57	Pre-Menopausal	Negative	Negative	Negative	Positive	No	LumA	No	Negative	wgs	Yes
+wgs.P46	1	Alive	8.8898	Female	White-British	59	Pre-Menopausal	Negative	Negative	Negative	Negative	Yes	Basal	Yes	Negative	wgs	Yes
+wgs.P47	2a	Alive	8.8925	Female	White-Other	61	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Normal	No	Negative	wgs	Yes
+wgs.P48	2a	Alive	8.9281	Female	White-British	54	Pre-Menopausal	Negative	Negative	Negative	Negative	No	Basal	No	unknown	wgs	Yes
+wgs.P49	2b	Alive	8.9966	Female	White-Other	29	Pre-Menopausal	Negative	Negative	Negative	Positive	No	Basal	No	unknown	wgs	Yes
+wgs.P50	2a	Alive	9.024	Female	White-British	47	Pre-Menopausal	Negative	Negative	Negative	Negative	No	LumB	No	Negative	wgs	Yes
+wgs.P51	2a	Dead	9.5058	Female	Black or Black British	78	Post-Menopausal	Negative	Negative	Negative	Positive	No	Basal	No	Negative	wgs	Yes
+wgs.P52	2a	Alive	9.5989	Female	White-Other	38	Pre-Menopausal	Negative	Negative	Negative	Negative	Yes	Basal	No	unknown	wgs	Yes

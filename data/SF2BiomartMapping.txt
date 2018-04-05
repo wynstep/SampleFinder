@@ -1,0 +1,33 @@
+gender	SEX	contact	Female	<Filter name = "hsapiens_gene_breastCancer__resultsData__dm__female_bool" value="only" filter_list=""/>
+men_status	MENOPAUSALSTATUS	diseasebreastcancerepisode	Pre-Menopausal	<Filter name="hsapiens_gene_breastCancer__resultsData__dm__menopausal_status" value="Premenopausal" filter_list=""/><Filter name="hsapiens_gene_breastCancer__resultsData__dm__menopausal_status" value="Premenopausal;Postmenopausal" filter_list=""/>	
+men_status	MENOPAUSALSTATUS	diseasebreastcancerepisode	Post-Menopausal	<Filter name="hsapiens_gene_breastCancer__resultsData__dm__menopausal_status" value="Postmenopausal" filter_list=""/><Filter name="hsapiens_gene_breastCancer__resultsData__dm__menopausal_status" value="Premenopausal;Postmenopausal" filter_list=""/>	
+er	ERSTATUS	diseasebreastcancerepisode	Positive	<Filter name = "hsapiens_gene_breastCancer__resultsData__dm__er_pos_bool" value="only" filter_list=""/>	
+er	ERSTATUS	diseasebreastcancerepisode	Negative	<Filter name = "hsapiens_gene_breastCancer__resultsData__dm__er_neg_bool" value="only" filter_list=""/>	
+pr	PRSTATUS	diseasebreastcancerepisode	Positive	<Filter name = "hsapiens_gene_breastCancer__resultsData__dm__pr_pos_bool"  value="only" filter_list=""/>	
+pr	PRSTATUS	diseasebreastcancerepisode	Negative	<Filter name = "hsapiens_gene_breastCancer__resultsData__dm__pr_neg_bool"  vvalue="only" filter_list=""/>/	
+her2	HER2	diseasebreastcancerepisode	Positive	<Filter name = "hsapiens_gene_breastCancer__resultsData__dm__her2_pos_bool" value="only" filter_list=""/>	
+her2	HER2	diseasebreastcancerepisode	Negative	<Filter name = "hsapiens_gene_breastCancer__resultsData__dm__her2_neg_bool" value="only" filter_list=""/>				
+grade	GRADE	diseasebreastcancerepisode	Grade 1	<Filter name = "hsapiens_gene_breastCancer__resultsData__dm__tumour_grade_1_bool" value="only" filter_list=""/>	
+grade	GRADE	diseasebreastcancerepisode	Grade 2	<Filter name = "hsapiens_gene_breastCancer__resultsData__dm__tumour_grade_2_bool" value="only" filter_list=""/>	
+grade	GRADE	diseasebreastcancerepisode	Grade 3	<Filter name = "hsapiens_gene_breastCancer__resultsData__dm__tumour_grade_3_bool" value="only" filter_list=""/>				
+stype	SAMPLETYPE	sample	Frozen Tissue	<Filter name = "hsapiens_gene_breastCancer__resultsData__dm__Frozen_tissue_bool" value="only" filter_list=""/>	
+stype	SAMPLETYPE	sample	Paraffin Embedded	<Filter name = "hsapiens_gene_breastCancer__resultsData__dm__Paraffin_embedded_tissue_bool" value="only" filter_list=""/>	
+stype	SAMPLETYPE	sample	Whole Blood	<Filter name = "hsapiens_gene_breastCancer__resultsData__dm__Blood_bool" value="only" filter_list=""/>	
+stype	SAMPLETYPE	sample	Serum	<Filter name="hsapiens_gene_breastCancer__resultsData__dm__Serum_bool" value="only" filter_list=""/>				
+ttype	TISSUETYPE	sample	Tumour	<Filter name = "hsapiens_gene_breastCancer__resultsData__dm__Malignant_lesion_bool" value="only" filter_list=""/>	
+ttype	TISSUETYPE	sample	Normal Adjacent/Adjacent	<Filter name = "hsapiens_gene_breastCancer__resultsData__dm__Normal_adjacent_bool" value="only" filter_list=""/>	
+ttype	TISSUETYPE	sample	Normal Surround/Normal Surround (>2cm)	<Filter name="hsapiens_gene_breastCancer__resultsData__dm__Surrounding_normal_bool" value="only" filter_list=""/>	
+ttype	TISSUETYPE	sample	Risk Reduction/Normal RR	<Filter name = "hsapiens_gene_breastCancer__resultsData__dm__Risk_reduction_bool" value="only" filter_list=""/>	
+ttype	TISSUETYPE	sample	Reduction Mammoplasty	<Filter name = "hsapiens_gene_breastCancer__resultsData__dm__Reduction_mammoplasty_bool" value="only" filter_list=""/>	
+ttype	TISSUETYPE	sample	Benign	<Filter name = "hsapiens_gene_breastCancer__resultsData__dm__Benign_lesion_bool" value="only" filter_list=""/>	
+ttype	TISSUETYPE	sample	DCIS	<Filter name = "hsapiens_gene_breastCancer__resultsData__dm__malignant_lesions_1_bool" value="only" filter_list=""/>	
+ttype	TISSUETYPE	sample	LCIS	<Filter name="hsapiens_gene_breastCancer__resultsData__dm__malignant_lesions_2_bool" value="only" filter_list=""/>		
+ctype	TYPEOFTUMOR	diseasebreastcancerepisode	No specific type/Infiltrating ductal carcinoma	<Filter name = "hsapiens_gene_breastCancer__resultsData__dm__malignant_lesions_4_bool" value="only" filter_list=""/>	
+ctype	TYPEOFTUMOR	diseasebreastcancerepisode	Apocrine carcinoma	<Filter name="hsapiens_gene_breastCancer__resultsData__dm__malignant_lesions_14_bool" value="only" filter_list=""/>	
+ctype	TYPEOFTUMOR	diseasebreastcancerepisode	Infiltrating lobular carcinoma	<Filter name = "hsapiens_gene_breastCancer__resultsData__dm__malignant_lesions_5_bool" value="only" filter_list=""/>	
+ctype	TYPEOFTUMOR	diseasebreastcancerepisode	Tubular carcinoma	<Filter name = "hsapiens_gene_breastCancer__resultsData__dm__malignant_lesions_6_bool" value="only" filter_list=""/>	
+ctype	TYPEOFTUMOR	diseasebreastcancerepisode	Cribriform carcinoma	<Filter name = "hsapiens_gene_breastCancer__resultsData__dm__malignant_lesions_13_bool" value="only" filter_list=""/>	
+ctype	TYPEOFTUMOR	diseasebreastcancerepisode	Mucinous carcinoma/Mucinous	<Filter name = "hsapiens_gene_breastCancer__resultsData__dm__malignant_lesions_7_bool" value="only" filter_list=""/>	
+ctype	TYPEOFTUMOR	diseasebreastcancerepisode	Medullary-like carcinoma	<Filter name = "hsapiens_gene_breastCancer__resultsData__dm__malignant_lesions_8_bool" value="only" filter_list=""/>	
+ctype	TYPEOFTUMOR	diseasebreastcancerepisode	Invasive micropapillary carcinoma/Invasive micropapillary	<Filter name = "hsapiens_gene_breastCancer__resultsData__dm__malignant_lesions_3_bool" value="only" filter_list=""/>	
+ctype	TYPEOFTUMOR	diseasebreastcancerepisode	Metaplastic carcinoma	<Filter name = "hsapiens_gene_breastCancer__resultsData__dm__with_malignant_lesions_9" value="only" filter_list=""/>
