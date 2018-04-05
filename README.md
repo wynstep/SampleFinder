@@ -102,6 +102,6 @@ For further details please refer to the comments inside the code
 
 | File name | Description |
 |----------|------------|
-| index.php | bar      |
+| index.php | test |
 
 
