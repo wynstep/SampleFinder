@@ -97,11 +97,47 @@ Web Portal for searching samples from BCNTB
 	+ [tcga.css](./styles/tcga.css)
 	+ [odometer-theme-train-station.css](./styles/odometer-theme-train-station.css)
 
-## Main description of PHP files
+## Main description of **PHP** files
 For further details please refer to the comments inside the code
+
+### Web elements
 
 | File name | Description |
 |----------|------------|
-| index.php | bar      |
+| index.php | This is the main home page. It includes 3 other pages (header, body, footer)|
+| header.php | The header contains the html "head" section, with all the links to CSS files and JS plugins |
+| body.php | The body page contains the logo, breadcrumb, and the main filtering section |
+| data_returned.php | Analysis page for the data collected inside the BCNTB |
+| tcga.php | Analysis page for The Cancer Genome Atlas data |
+| ccle.php | Analysis page for data extracted from the Cancer Cell Line Enciclopedia |
+| request.php | Web page where interested users can proceed to request selected samples |
+| scrips/res_mixed.php | Page of analyses if returned data are from mixed technologies (wgs and rna-seq)|
+| scrips/res_rnaseq.php | Page of analyses if returned data are from RNA-seq technology |
+| scrips/res_wgs.php | Page of analyses if returned data are from WGS technology |
+
+### Scripts and functions 
+
+| File name | Description |
+|----------|------------|
+| ExecQuery.php | This is the most important script. Based on what selected, it performs multiple queries to the BCNTB database and retrieve the results |
+| RetrieveCCLEDatasets.php | Retrieve the samples from CCLE, according to the features selected in the main page |
+| RetrieveDRDatasets.php | Retrieve the samples from returned data, according to the features selected in the main page |
+| RetrieveTCGADatasets.php | Retrieve the samples from TCGA, according to the features selected in the main page |
+| RetrieveGeneList.php | Retrieve list of genes specific for each dataset (TCGA, CCLE, data returned) for the autocomplete search fields |
+| conn_details.php | Page with all the connection (db) details. This page was planned to be encrypted at the final stage of production |
+| vars.php | All the variables and useful function to be imported in each script |
+
+## Main description of **JS** files
+
+| File name | Description |
+|----------|------------|
+| candlestick.js | [Plugin for interactive buttons](https://github.com/EdouardTack/candlestick)|
+| ccle.js | Methods for the analysed results of CCLE data |
+| tcga.js | Methods for the analysed results of TCGA data |
+| data_return.js | Methods for the analysed results of returned data |
+| sf.js | Methods for animations and functions in the main webpage |
+| network.js | Methods for visualising protein-protein interaction networks |
+| jquery.scrollintoView.js | Auto scrolling once the plot is loaded |
+| jquery.dataTables.yadcf.js | Look [here] for further details (https://github.com/vedmack/yadcf) 
 
 
