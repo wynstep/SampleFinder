@@ -131,7 +131,6 @@ For further details please refer to the comments inside the code
 
 | File name | Description |
 |----------|------------|
-<<<<<<< .merge_file_nKTISR
 | candlestick.js | [Plugin for interactive buttons](https://github.com/EdouardTack/candlestick)|
 | ccle.js | Methods for the analysed results of CCLE data |
 | tcga.js | Methods for the analysed results of TCGA data |
@@ -140,8 +139,5 @@ For further details please refer to the comments inside the code
 | network.js | Methods for visualising protein-protein interaction networks |
 | jquery.scrollintoView.js | Auto scrolling once the plot is loaded |
 | jquery.dataTables.yadcf.js | Look [here] for further details (https://github.com/vedmack/yadcf) 
-=======
-| index.php | test |
->>>>>>> .merge_file_gdXFDy
 
 
