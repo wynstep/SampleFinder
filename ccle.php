@@ -2,7 +2,7 @@
 
 // importing variables file
 include('scripts/vars.php'); // from this point it's possible to use the variables present inside 'var.php' file
-// reading vars
+// reading vars -- this is the accession number for CCLE samples
 $ac = $_GET["ac"];
 
 $iframe_directory = "$relative_root_dir/queries/ccle/";
@@ -59,6 +59,7 @@ echo <<< EOT
       <li><a href="#expression_layering">Data integration</a></li>
       <li><a href="#gene_networks">Gene networks</a></li>
     </ul>
+    <!-- PRINCIPAL COMPONENT ANALYSIS PLOTS -->
     <div id="pca">
       <div class='description'>
         <p class='pub_det'> Principal component analyses (PCA) transforms the data into a coordinate system and presenting it as an orthogonal projection.
@@ -73,6 +74,7 @@ echo <<< EOT
       <iframe class='results' scrolling='no' src='$iframe_directory/$ac.PCAbp.html' onload='resizeIframe(this)'></iframe>
     </div>
 
+    <!-- SECTION FOR PLOTTING EXPRESSION LEVELS -->
     <div id="expression_profiles">
       <div class='description'>
         <p class='pub_det'>
@@ -100,6 +102,7 @@ echo <<< EOT
       <script>LoadAnalysis("gea_ccle_sel","gea_ccle_run","ccle","","ccle_gene_expression","$ac")</script>
     </div>
 
+    <!-- SECTION FOR CO-EXPRESSION ANALYSES -->
     <div id="co_expression_analysis">
       <div class='description'>
         <p class='pub_det'>
@@ -132,6 +135,7 @@ echo <<< EOT
       <script>LoadAnalysis("cea_ccle_sel","cea_ccle_run","ccle","","ccle_co_expression","$ac")</script>
     </div>
 
+    <!-- SECTION FOR VISUALISING DNA COPY NUMBER ALTERATIONS AND MUTATIONS -->
     <div id="expression_layering">
       <div class='description'>
         <p class='pub_det'>
@@ -189,6 +193,8 @@ echo <<< EOT
       <script>LoadGeneSelector("cna_ccle_sel", "", "", "ccle")</script>
       <script>LoadAnalysis("cna_ccle_sel","cna_ccle_run","ccle","","ccle_cn_alterations","$ac")</script>
     </div>
+
+    <!-- SECTION FOR VISUALISING THE PROTEIN INTERACTION NETWORK -->
     <div id='gene_networks'>
       <div class='description'>
         <p class='pub_det'>
@@ -231,6 +237,8 @@ echo <<< EOT
           <tr>
             <h4> Speciments available in the dataset: </h4><br>
 EOT;
+      // SECTION FOR VISUALISING THE PROTEIN INTERACTION NETWORK 
+
       // loading multiple radio buttons according to the speciments into the target file
       $target_io = fopen("$result_directory/tmp".$ac.".target.txt", "r");
       // initilizing array with speciments

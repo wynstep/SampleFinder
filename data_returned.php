@@ -1,10 +1,12 @@
 <?php
 
+// This page is the hub for visualising the type of results page, based on the type of selected samples
+
 // importing variables file
 include('scripts/vars.php'); // from this point it's possible to use the variables present inside 'var.php' file
 // reading vars
-$ac = $_GET["ac"];
-$analysis_type = $_GET["analysis_type"];
+//$ac = $_GET["ac"];
+$analysis_type = $_GET["analysis_type"]; // this can be WGS (whole genome sequencing), RNA-seq or mixed
 
 // importing variables
 $iframe_directory = "$relative_root_dir/queries/data_return/";
@@ -51,6 +53,7 @@ echo <<< EOT
 
   <body>
 EOT;
+
 // filtering type of results based on the type of analysis
 if ($analysis_type == "wgs") {
   include("scripts/res_wgs.php");

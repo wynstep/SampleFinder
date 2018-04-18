@@ -64,7 +64,6 @@ echo <<< EOT
 
 <!-- Load Javascripts -->
 <script>LoadSpinner($count_cases);</script>
-<!-- Load Javascripts -->
 EOT;
 
 ?>

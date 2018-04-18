@@ -54,8 +54,9 @@ annData <- read.table(annFile,sep="\t",as.is=TRUE,header=TRUE, stringsAsFactors=
 ##### Read file with expression data
 mutData <- as.data.frame(fread(mutFile,sep="\t",header=TRUE,stringsAsFactors = FALSE))
 mutSamples = unique(mutData[,ncol(mutData)])
+# intersect sample names in the target and mutation files
 selected_samples <- intersect(as.character(annData$FILE_NAME),mutSamples)
-
+# subsetting mutation file according to the intersected sample names
 mutData.subset <- mutData[mutData[,ncol(mutData)] %in% mutSamples,]
 
 ### write expression values into a file

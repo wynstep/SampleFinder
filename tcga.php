@@ -1,9 +1,11 @@
 <?php
 
+// Results page for The Cancer Genome Atlas (TCGA) samples
+
 // importing variables file
 include('scripts/vars.php'); // from this point it's possible to use the variables present inside 'var.php' file
 // reading vars
-$ac = $_GET["ac"];
+$ac = $_GET["ac"]; // accession id of TCGA samples
 
 // importing variables
 $iframe_directory = "$relative_root_dir/queries/tcga/";
@@ -60,6 +62,7 @@ echo <<< EOT
         <li><a href="#gene_networks">Gene networks</a></li>
       </ul>
 
+      <!-- SECTION FOR PRINCIPAL COMPONENT ANALYSIS -->
       <div id="pca">
         <div class='description'>
           <p class='pub_det'> Principal component analyses (PCA) transforms the data into a coordinate system and presenting it as an orthogonal projection.
@@ -74,6 +77,8 @@ echo <<< EOT
         <iframe class='results' scrolling='no' src='$iframe_directory/$ac.PCAbp.html'></iframe>
 
       </div>
+
+      <!-- SECTION FOR GENE EXPRESSION ANALYSIS -->
       <div id="expression_profiles">
         <div class='description'>
           <p class='pub_det'>
@@ -101,6 +106,7 @@ echo <<< EOT
         <script>LoadAnalysis("gea_tcga_sel","gea_tcga_run","","","tcga_gene_expression","$ac")</script>
       </div>
 
+      <!-- SECTION FOR CO-EXPRESSION ANALYSIS -->
       <div id="co_expression_analysis">
         <div class='description'>
           <p class='pub_det'>
@@ -133,6 +139,7 @@ echo <<< EOT
         <script>LoadAnalysis("cea_tcga_sel","cea_tcga_run","tcga","","tcga_co_expression","$ac")</script>
       </div>
 
+      <!-- SECTION FOR SURVIVAL ANALYSIS -->
       <div id="survival">
         <div class='description'>
           <p class='pub_det'>
@@ -179,6 +186,7 @@ echo <<< EOT
         <script>LoadAnalysis("surv_tcga_sel","surv_tcga_run","tcga","","tcga_survival","$ac")</script>
       </div>
 
+      <!-- SECTION FOR PROTEIN INTERACTION NETWORK -->
       <div id='gene_networks'>
         <div class='description'>
           <p class='pub_det'>
