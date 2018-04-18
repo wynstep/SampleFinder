@@ -138,6 +138,68 @@ For further details please refer to the comments inside the code
 | sf.js | Methods for animations and functions in the main webpage |
 | network.js | Methods for visualising protein-protein interaction networks |
 | jquery.scrollintoView.js | Auto scrolling once the plot is loaded |
-| jquery.dataTables.yadcf.js | Look [here] for further details (https://github.com/vedmack/yadcf) 
+| jquery.dataTables.yadcf.js | Look [here](https://github.com/vedmack/yadcf) for further details
 
+## Main description of **CSS** files
+
+| File name | Description |
+|----------|------------|
+| candlestick.css | [Plugin for interactive buttons](https://github.com/EdouardTack/candlestick)|
+| sf.css | Style for elements of the main web page |
+| tcga.css | Style for the page collecting analysed results of TCGA data |
+| dr.css | Style for the page collecting analysed results of returned data |
+| odometer-theme-train-station.css | Style for samples interactive, counter |
+
+## Main description of **R** files
+
+R scripts were developed for performing bioinformatics analysis on microarrays, RNA-seq and WGS data.
+For further details on the available analyses, please refer to our [latest publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5753182/)
+
+| File name | Description |
+|----------|------------|
+| CreateExprMatrix.R | Extracts the expression values for selected samples from TCGA or CCLE |
+| CreateMutMatrix.R | Extracts mutation values for selected samples (if available) |
+| LiveCNAlterations.R | Evaluates copy number alterations for selected genes and plot the results as an interactive heatmap |
+| LiveCoExpression.R | Calculates the coexpression between user-defined genes/probes, for selected samples|
+| LiveExprCN.R | Visualise copy number alterations (boxplots and barplots) across selected samples |
+| LiveExprCNMut.R | Visualise copy number alterations across selected samples. It also integrates mutation profiles |
+| LiveGeneExpression.R | Visualise gene expression levels for selected genes|
+| LiveMuts.R | Visualise the mutation profile for TCGA data|
+| LiveNetworkCreator.R | Visualise an interactive protein interaction network where nodes (genes) are colored according to the expression level in selected samples (average)|
+| LiveOncoprint.R | Visualise the mutation profile (oncoprint) for selected genes, across multiple samples |
+| LiveSurvivalGene.R | Visualise survival data (for SELECTED genes) as a KM plot. It also produce a JSON file to be imported as an interactive table|
+| PCA.R| Performs PCA analysis using normalised expression data on selected samples. It visualise results as an interactive 3D scatterplot|
+| Survival.R | Visualise survival data (for ALL genes across selected samples) as a KM plot |
+| estimate.R | Evaluates tumour purity of selected samples |
+| mclust.R | Identifies triple negative samples. It also assigns Er, PR and Her2 status according to the expression profile |
+| pam50.R | Predicts PAM50 breast cancer molecular subtypes and visualise the aboundance as a barplot|
+
+## Main description of **Data** files
+
+These files contain dictionary for ID conversions, raw data from TCGA or CCLE, sources for conducting pam50 and gene network analyses
+
+| File name | Description |
+|----------|------------|
+| SF2BiomartMapping.txt | Link between BCNTB literature service (Biomart) URLs and selectable feautures |
+| ccle_cn.csv | Copy number data from Cancer Cell Line Encyclopedia |
+| ccle_cn_target_with_chr.csv | Copy number data from Cancer Cell Line Encyclopedia (with chromosome info) |
+| ccle_gea_target.txt | Clinical informations for CCLE samples |
+| ccle_gene_exp.csv | Gene expression matrix for CCLE sample |
+| ccle_gene_list.txt | List of unique genes listed in the "cle_gene_exp.csv" file |
+| ccle_mut.csv | Mutations data from Cancer Cell Line Encyclopedia |
+| dr_gea_target.txt | Clinical informations for "BCN returned" samples |
+| dr_gene_exp.csv | Gene expression matrix for "BCN returned" samples |
+| dr_gene_list.txt | List of unique genes listed in the "dr_gene_exp.csv" file |
+| dr_mut_exp.txt | Mutations data for "BCN returned" samples
+| dr_gene_list_mut.txt | List of unique genes listed in the "dr_mut_exp.txt" file |
+| dr_mut_target.txt | Clinical informations for "BCN returned" samples (where mutation data are available) |
+| mentha.txt | Protein-protein interaction data extracted from [Mentha](https://mentha.uniroma2.it) database |
+| pam50.genes.txt | List of genes to be considered in the [PAM50](https://www.ncbi.nlm.nih.gov/pubmed/19204204) analysis |
+| tcga_gea_target.txt | Clinical informations for TCGA samples |
+| tcga_gene_exp.csv | Gene expression matrix for CCLE sample |
+| tcga_gene_list.txt | List of unique genes listed in the "tcga_gene_exp.csv" file |
+
+## Further annotations
+
+The **queries** folder contains a tracklog of all the queries launched on the web portal. This represent a useful tool for creating access statistics and other analyses.
 
